@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modish Turk | Wholesale Clothing & Worldwide Shipping</title>
+  <meta name="description" content="Modish Turk offers wholesale clothing and worldwide shipping. Contact us on WhatsApp for retail and bulk orders." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Montserrat:wght@600;700;800&family=Poppins:wght@400;500;600;700&family=Tajawal:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              950: '#06101f',
+              900: '#0a192f',
+              800: '#0f2537',
+              700: '#183650',
+            },
+            gold: {
+              300: '#f3d982',
+              400: '#e6c55c',
+              500: '#d4af37',
+              600: '#b59224',
+            }
+          },
+          fontFamily: {
+            arabic: ['Cairo', 'Tajawal', 'sans-serif'],
+            english: ['Poppins', 'sans-serif'],
+            brand: ['Montserrat', 'Poppins', 'sans-serif'],
+          },
+          animation: {
+            'fade-in-up': 'fadeInUp 0.7s ease-out forwards',
+            'pulse-slow': 'pulse 3s ease-in-out infinite',
+          },
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #06101f; }
+    .glass {
+      background: rgba(10, 25, 47, 0.7);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="bg-navy-950 text-white font-arabic min-h-screen selection:bg-gold-500 selection:text-navy-900 overflow-x-hidden">
+  
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div class="absolute -top-32 -right-24 w-80 h-80 bg-gold-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-32 -left-24 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+    <svg class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] text-white/[0.025]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.5">
+      <circle cx="12" cy="12" r="10"/>
+      <ellipse cx="12" cy="12" rx="4" ry="10"/>
+      <path d="M2 12h20M4.5 7h15M4.5 17h15"/>
+    </svg>
+  </div>
+
+  <header class="relative z-20">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
+      <div class="glass border border-gold-500/25 rounded-full px-4 py-3 shadow-xl shadow-black/30">
+        <div class="flex items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12 rounded-2xl bg-navy-950 border border-gold-500/40 flex items-center justify-center shadow-inner">
+              <svg class="w-7 h-7 text-gold-500" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 9C29.7909 9 28 10.7909 28 13C28 14.6356 28.9812 16.0422 30.388 16.6626L32 17.5V20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M32 20L11 31.5C9.5 32.3 10.1 34.5 11.8 34.5H52.2C53.9 34.5 54.5 32.3 53 31.5L32 20Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <circle cx="32" cy="46" r="11.5" stroke="currentColor" stroke-width="2"/>
+                <ellipse cx="32" cy="46" rx="4.8" ry="11.5" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M20.5 46H43.5" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M47.5 37.5L54 34.5L50.8 41L48.7 39.2L47.5 37.5Z" fill="#f3d982"/>
+                <path d="M17.5 52.5C24 55.5 41.5 51.5 49.5 38.8" stroke="#f3d982" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="3 2"/>
+              </svg>
+            </div>
+            <div>
+              <div class="font-brand text-lg sm:text-xl font-extrabold tracking-wide uppercase bg-gradient-to-r from-gold-300 via-gold-500 to-gold-300 bg-clip-text text-transparent" dir="ltr">Modish Turk</div>
+            </div>
+          </div>
+
+          <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-200">
+            <a href="#about" class="hover:text-gold-400 transition-colors">من نحن</a>
+            <a href="#categories" class="hover:text-gold-400 transition-colors">المنتجات</a>
+            <a href="#why-us" class="hover:text-gold-400 transition-colors">لماذا نحن</a>
+            <a href="#shipping" class="hover:text-gold-400 transition-colors">الشحن</a>
+            <a href="#contact" class="hover:text-gold-400 transition-colors">تواصل معنا</a>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="https://wa.me/905060600691?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%87%20%D8%B9%D9%84%D9%8A%D9%83%D9%87%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D8%B9%D9%84%D9%8A%20%D8%B4%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%B1%D8%A7%D8%B6%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D8%B1%D8%A9%20%D9%88%D8%A7%D9%84%D8%AA%D8%B5%D8%A7%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A%D8%A9" 
+               target="_blank" rel="noopener noreferrer"
+               class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-emerald-600 to-emerald-500 text-white px-4 py-2.5 rounded-full font-bold text-sm shadow-lg shadow-emerald-950/40 hover:scale-[1.02] transition-transform">
+              <i class="fab fa-whatsapp"></i>
+              <span>واتساب</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="relative z-10">
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-18">
+      <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-center">
+        <div class="space-y-6 animate-fade-in-up">
+          <div class="inline-flex items-center gap-2 rounded-full border border-gold-500/35 bg-navy-900/80 px-3 py-2 text-xs sm:text-sm text-gold-300">
+            <i class="fas fa-shipping-fast text-gold-400"></i>
+            <span>تجارة ملابس بالجملة • شحن عالمي</span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
+            <span class="block text-white">ملابس بالجملة</span>
+            <span class="block bg-gradient-to-r from-gold-300 via-gold-500 to-gold-300 bg-clip-text text-transparent">بجودة عالمية</span>
+          </h1>
+
+          <p class="text-lg text-gray-300 max-w-xl">
+            نقدم لك تشكيلة واسعة من الملابس النسائية والرجالية والأطفالية بأسعار تنافسية، مع خدمات شحن موثوقة إلى جميع الدول.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-3">
+            <a href="#contact" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-gold-500 to-gold-400 text-navy-950 font-extrabold px-6 py-3.5 rounded-2xl shadow-lg shadow-gold-900/40 hover:scale-[1.02] transition-transform">
+              <i class="fas fa-handshake"></i>
+              <span>اطلب الآن</span>
+            </a>
+            <a href="https://wa.me/905313275040?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20wholesale%20clothing%20and%20worldwide%20shipping." 
+               target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-3 border border-gold-500/40 bg-navy-900/60 px-6 py-3.5 rounded-2xl font-bold text-white hover:border-gold-400 transition-colors">
+              <i class="fab fa-whatsapp text-emerald-400"></i>
+              <span>English Contact</span>
+            </a>
+          </div>
+
+          <div class="flex flex-wrap gap-5 pt-3 text-sm text-gray-300">
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-gold-400"></i> أسعار تنافسية</div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-gold-400"></i> شحن عالمي</div>
+            <div class="flex items-center gap-2"><i class="fas fa-check-circle text-gold-400"></i> دعم فوري</div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="absolute inset-0 bg-gradient-to-br from-gold-500/20 to-transparent blur-2xl rounded-[2rem]"></div>
+          <div class="relative glass border border-gold-500/30 rounded-[2rem] p-5 shadow-2xl shadow-black/60">
+            <div class="bg-navy-950 border border-gold-500/25 rounded-[1.5rem] p-5">
+              <div class="flex items-center justify-between mb-5">
+                <div>
+                  <p class="text-sm text-gray-400">مستوى الخدمة</p>
+                  <p class="text-xl font-bold text-white">Premium Wholesale</p>
+                </div>
+                <div class="w-12 h-12 rounded-2xl bg-gold-500/20 border border-gold-500/40 flex items-center justify-center text-gold-400">
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <div class="bg-navy-800/80 rounded-2xl p-4 border border-white/5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-gray-300">الأكثر طلباً</span>
+                    <span class="text-gold-400 font-bold">+1,200</span>
+                  </div>
+                  <div class="mt-3 h-2.5 rounded-full bg-navy-700 overflow-hidden">
+                    <div class="h-full w-[82%] rounded-full bg-gradient-to-r from-gold-300 to-gold-500"></div>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-3">
+                  <div class="bg-navy-800/80 rounded-2xl p-4 border border-white/5">
+                    <p class="text-xs text-gray-400">دول الشحن</p>
+                    <p class="text-2xl font-black text-gold-400 mt-2">60+</p>
+                  </div>
+                  <div class="bg-navy-800/80 rounded-2xl p-4 border border-white/5">
+                    <p class="text-xs text-gray-400">التقييم</p>
+                    <p class="text-2xl font-black text-gold-400 mt-2">4.9</p>
+                  </div>
+                </div>
+
+                <div class="rounded-2xl border border-gold-500/25 bg-gradient-to-r from-navy-800 to-navy-900 p-4">
+                  <div class="flex items-center justify-between mb-3">
+                    <span class="text-sm text-gray-300">الاستفسار السريع</span>
+                    <i class="fab fa-whatsapp text-emerald-400"></i>
+                  </div>
+                  <div class="space-y-2 text-sm">
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-400">العربية</span>
+                      <span class="font-bold text-white">+90 506 060 06 91</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-400">English</span>
+                      <span class="font-bold text-white">+90 531 327 50 40</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center mb-10">
+        <p class="text-gold-400 font-bold text-sm uppercase tracking-[0.22em]">About Us</p>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-black text-white">من نحن؟</h2>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <p class="text-lg text-gray-300 leading-8">
+            تعد شركة Modish Turk وجهة موثوقة للمتاجر والموزعين والعلامات التجارية التي تبحث عن ملابس بالجملة عالية الجودة بأسعار مناسبة.
+          </p>
+          <p class="text-lg text-gray-300 leading-8">
+            نعمل على تلبية احتياجات السوق العالمي من خلال توفير تشكيلة متجددة، دعم متواصل، وشحن موثوق إلى مختلف الدول بأسعار مناسبة.
+          </p>
+          <div class="grid grid-cols-2 gap-4 pt-4">
+            <div class="bg-navy-900/80 border border-gold-500/25 rounded-2xl p-5">
+              <div class="text-3xl font-black text-gold-400">100%</div>
+              <div class="mt-2 text-sm text-gray-300">خدمة عملاء مخصصة</div>
+            </div>
+            <div class="bg-navy-900/80 border border-gold-500/25 rounded-2xl p-5">
+              <div class="text-3xl font-black text-gold-400">24/7</div>
+              <div class="mt-2 text-sm text-gray-300">دعم الاستفسارات</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-[2rem] border border-gold-500/25 bg-gradient-to-br from-navy-900 to-navy-800 p-7 shadow-2xl shadow-black/40">
+          <div class="space-y-5">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-cubes"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">مجموعات متنوعة</h3>
+                <p class="text-sm text-gray-400">ملابس للنساء، الرجال، الأطفال</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-hand-holding-dollar"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">أسعار تنافسية</h3>
+                <p class="text-sm text-gray-400">حلول مناسبة للموزعين والمتاجر</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">شحن عالمي</h3>
+                <p class="text-sm text-gray-400">تسليم موثوق إلى معظم الدول</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center mb-12">
+        <p class="text-gold-400 font-bold text-sm uppercase tracking-[0.22em]">Our Collections</p>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-black text-white">منتجاتنا</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-5">
+        <div class="group rounded-[1.75rem] overflow-hidden border border-gold-500/20 bg-navy-900/80 hover:border-gold-500/50 transition-all">
+          <div class="h-56 bg-gradient-to-br from-gold-500/20 via-navy-800 to-navy-900 flex items-center justify-center">
+            <div class="text-gold-400 text-6xl">
+              <i class="fas fa-female"></i>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="text-2xl font-bold mb-2">ملابس نسائية</h3>
+            <p class="text-gray-300">تشكيلة أنيقة وحديثة للمبيعات بالجملة.</p>
+          </div>
+        </div>
+
+        <div class="group rounded-[1.75rem] overflow-hidden border border-gold-500/20 bg-navy-900/80 hover:border-gold-500/50 transition-all">
+          <div class="h-56 bg-gradient-to-br from-emerald-500/15 via-navy-800 to-navy-900 flex items-center justify-center">
+            <div class="text-emerald-400 text-6xl">
+              <i class="fas fa-male"></i>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="text-2xl font-bold mb-2">ملابس رجالية</h3>
+            <p class="text-gray-300">تصاميم عملية وعصرية بأسعار مجدية.</p>
+          </div>
+        </div>
+
+        <div class="group rounded-[1.75rem] overflow-hidden border border-gold-500/20 bg-navy-900/80 hover:border-gold-500/50 transition-all">
+          <div class="h-56 bg-gradient-to-br from-blue-500/15 via-navy-800 to-navy-900 flex items-center justify-center">
+            <div class="text-blue-400 text-6xl">
+              <i class="fas fa-child"></i>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="text-2xl font-bold mb-2">ملابس أطفال</h3>
+            <p class="text-gray-300">اختيارات مميزة لأطفال بأسلوب عصري.</p>
+          </div>
+        </div>
+
+        <div class="group rounded-[1.75rem] overflow-hidden border border-gold-500/20 bg-navy-900/80 hover:border-gold-500/50 transition-all">
+          <div class="h-56 bg-gradient-to-br from-pink-500/15 via-navy-800 to-navy-900 flex items-center justify-center">
+            <div class="text-pink-400 text-6xl">
+              <i class="fas fa-tshirt"></i>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="text-2xl font-bold mb-2">ملابس متنوعة</h3>
+            <p class="text-gray-300">الأسهم الأكثر طلباً في السوق العالمية.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="mb-12 text-center">
+        <p class="text-gold-400 font-bold text-sm uppercase tracking-[0.22em]">Why Choose Us</p>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-black text-white">لماذا تختار Modish Turk؟</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-[1.75rem] border border-gold-500/25 bg-navy-900/80 p-6 h-full">
+          <div class="w-14 h-14 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400 text-2xl mb-4">
+            <i class="fas fa-boxes-stacked"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">مبيعات بالجملة فقط</h3>
+          <p class="text-gray-300 leading-7">نوفر مفهوماً عملياً لتجار الملابس وموزعي المجموعات الكبيرة مع أسعار مناسبة وطلب مرن.</p>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-gold-500/25 bg-navy-900/80 p-6 h-full">
+          <div class="w-14 h-14 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400 text-2xl mb-4">
+            <i class="fas fa-globe-americas"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">شحن إلى جميع الدول</h3>
+          <p class="text-gray-300 leading-7">نخدم عملاء من مختلف الأسواق العالمية عبر خدمات شحن مستدامة وموثوقة.</p>
+        </div>
+
+        <div class="rounded-[1.75rem] border border-gold-500/25 bg-navy-900/80 p-6 h-full">
+          <div class="w-14 h-14 rounded-2xl bg-gold-500/15 flex items-center justify-center text-gold-400 text-2xl mb-4">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class="text-2xl font-bold mb-3">جودة وعناية</h3>
+          <p class="text-gray-300 leading-7">نحرص على الجودة، التناسق، ومواكبة الاتجاهات الحديثة في سوق الملابس العالمي.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shipping" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="grid lg:grid-cols-2 gap-8 items-center">
+        <div class="rounded-[2rem] border border-gold-500/25 bg-gradient-to-br from-navy-900 to-navy-800 p-8">
+          <p class="text-gold-400 font-bold mb-4 text-sm uppercase tracking-[0.22em]">Worldwide Shipping</p>
+          <h2 class="text-3xl sm:text-4xl font-black text-white mb-5">شحن عالمي سريع وآمن</h2>
+          <p class="text-lg text-gray-300 leading-8">
+            نوفر حلول شحن مناسبة للطلبات الصغيرة والكبيرة، مع توصيل إلى عدد واسع من البلدان بطريقة منظمة وفعالة.
+          </p>
+
+          <div class="grid sm:grid-cols-3 gap-4 mt-8">
+            <div class="bg-navy-950/60 rounded-2xl p-4 border border-white/5">
+              <div class="text-3xl font-black text-gold-400">60+</div>
+              <div class="text-sm text-gray-400 mt-2">الدول</div>
+            </div>
+            <div class="bg-navy-950/60 rounded-2xl p-4 border border-white/5">
+              <div class="text-3xl font-black text-gold-400">2-6</div>
+              <div class="text-sm text-gray-400 mt-2">أسابيع</div>
+            </div>
+            <div class="bg-navy-950/60 rounded-2xl p-4 border border-white/5">
+              <div class="text-3xl font-black text-gold-400">100%</div>
+              <div class="text-sm text-gray-400 mt-2">دعم</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rounded-[2rem] border border-gold-500/25 bg-navy-900/80 p-8">
+          <div class="space-y-5">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 text-gold-400 flex items-center justify-center text-xl">
+                <i class="fas fa-truck"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">تسليم فعّال</h3>
+                <p class="text-gray-300 mt-2">نساعدك في تنظيم الطلبات وتحديد أفضل طريقة شحن تناسب حجم الطلب والموقع.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 text-gold-400 flex items-center justify-center text-xl">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">تغطية واسعة</h3>
+                <p class="text-gray-300 mt-2">نتعامل مع الأسواق الدولية، ونبني علاقة موثوقة مع عملائنا في مختلف الدول.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-gold-500/15 text-gold-400 flex items-center justify-center text-xl">
+                <i class="fas fa-headset"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold">دعم فني وتجاري</h3>
+                <p class="text-gray-300 mt-2">نستقبل الاستفسارات بسرعة ونعمل على تيسير الطلبات من أول زيارة إلى التسليم.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="text-center mb-12">
+        <p class="text-gold-400 font-bold text-sm uppercase tracking-[0.22em]">Contact</p>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-black text-white">تواصل معنا</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="rounded-[2rem] border border-gold-500/25 bg-gradient-to-br from-navy-900 to-navy-800 p-6">
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-500/15 flex items-center justify-center text-emerald-400 text-2xl">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold">واتساب</h3>
+              <p class="text-gray-400">للإستفسار والطلب</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/905060600691?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%87%20%D8%B9%D9%84%D9%8A%D9%83%D9%87%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D8%B9%D9%84%D9%8A%20%D9%8A%D8%B4%D9%87%D9%8A%D9%83%D9%86%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D8%B1%D8%A7%D8%B6%20%D9%88%D8%A7%D9%84%D8%AA%D8%B5%D8%A7%D9%84%D8%AD%D8%A9" 
+             target="_blank" rel="noopener noreferrer"
+             class="block rounded-2xl bg-gradient-to-r from-emerald-600 to-emerald-500 p-4 text-white font-bold text-lg mb-4 text-center shadow-lg shadow-emerald-950/40">
+            العربية: +90 506 060 06 91
+          </a>
+
+          <a href="https://wa.me/905313275040?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20wholesale%20clothing%20and%20worldwide%20shipping." 
+             target="_blank" rel="noopener noreferrer"
+             class="block rounded-2xl bg-gradient-to-r from-navy-700 to-navy-800 border border-gold-500/40 p-4 text-white font-bold text-lg text-center">
+            English: +90 531 327 50 40
+          </a>
+        </div>
+
+        <div class="rounded-[2rem] border border-gold-500/25 bg-navy-900/80 p-6">
+          <h3 class="text-2xl font-bold mb-5">معلومات التواصل</h3>
+          <div class="space-y-4 text-gray-300">
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-400">Phone</div>
+                <div class="font-bold text-white">+90 506 060 06 91</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-400">Website</div>
+                <div class="font-bold text-white">www.modishturk.com</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-xl bg-gold-500/15 flex items-center justify-center text-gold-400">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <div class="text-sm text-gray-400">Location</div>
+                <div class="font-bold text-white">Turkey / Worldwide Supply</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <button onclick="copyPhoneNumber('+905060600691')" class="inline-flex items-center gap-2 bg-gold-500 text-navy-950 font-bold px-5 py-3 rounded-full hover:bg-gold-400 transition-colors">
+              <i class="far fa-copy"></i>
+              <span>نسخ رقم العربية / Copy Number</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24 pt-8">
+      <div class="rounded-[2rem] border border-gold-500/25 bg-gradient-to-r from-navy-900 via-navy-800 to-navy-900 p-8 text-center">
+        <p class="text-gold-400 font-bold text-sm uppercase tracking-[0.22em]">Ready to Order?</p>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-black text-white">ابدأ طلبك اليوم</h2>
+        <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+          فريقنا جاهز للإجابة على أسئلتك ومساعدتك في اختيار أفضل الخيارات المناسبة لعملك.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/905060600691?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%87%20%D8%B9%D9%84%D9%8A%D9%83%D9%87%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%88%D8%A7%D9%84%D8%A7%D8%8A%D9%8A%D8%A7%D8%B1%D8%8A%20%D8%A7%D9%84%D8%B4%D8%AD%D9%87" 
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-gold-500 to-gold-400 text-navy-950 px-7 py-3.5 rounded-full font-extrabold shadow-lg shadow-gold-900/40">
+            <i class="fab fa-whatsapp"></i>
+            <span>اطلب الآن</span>
+          </a>
+
+          <a href="https://wa.me/905313275040?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20wholesale%20clothing%20and%20worldwide%20shipping." 
+             target="_blank" rel="noopener noreferrer"
+             class="inline-flex items-center justify-center gap-3 border border-gold-500/40 bg-navy-950 px-7 py-3.5 rounded-full font-extrabold text-white">
+            <i class="fab fa-whatsapp"></i>
+            <span>Contact in English</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="relative z-10 border-t border-gold-500/20 bg-navy-950/90">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col sm:flex-row gap-4 items-center justify-between text-sm text-gray-400">
+      <p>© 2026 <span class="text-gold-400 font-semibold">Modish Turk</span> • All Rights Reserved.</p>
+      <div class="flex gap-4">
+        <a href="#about" class="hover:text-gold-400 transition-colors">من نحن</a>
+        <a href="#categories" class="hover:text-gold-400 transition-colors">المنتجات</a>
+        <a href="#contact" class="hover:text-gold-400 transition-colors">تواصل معنا</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/905060600691?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%87%20%D8%B9%D9%84%D9%8A%D9%83%D9%87%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%88%D8%A7%D9%84%D8%B4%D9%8A%D9%87%D8%A7%D8%8A%D8%8A%20%D9%8A%D9%88%D9%82%20%D8%B9%D9%84%D9%87%D8%A7%D8%84%D9%87" 
+     target="_blank" rel="noopener noreferrer"
+     class="fixed bottom-5 left-5 z-50 w-16 h-16 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-600 shadow-xl shadow-emerald-900/50 flex items-center justify-center text-3xl text-white hover:scale-105 transition-transform">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <div id="copyToast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 bg-gold-500 text-navy-950 font-bold px-5 py-2.5 rounded-full shadow-xl flex items-center gap-2 text-sm opacity-0 pointer-events-none transition-all duration-300 transform translate-y-4">
+    <i class="fas fa-check-circle text-base"></i>
+    <span>تم نسخ الرقم! / Copied!</span>
+  </div>
+
+  <script>
+    function copyPhoneNumber(numberText) {
+      try {
+        const tempInput = document.createElement('textarea');
+        tempInput.value = numberText;
+        tempInput.style.position = 'fixed';
+        tempInput.style.opacity = '0';
+        document.body.appendChild(tempInput);
+        tempInput.focus();
+        tempInput.select();
+
+        const successful = document.execCommand('copy');
+        document.body.removeChild(tempInput);
+
+        if (successful) {
+          showToast();
+        }
+      } catch (err) {
+        console.error('Failed to copy phone number:', err);
+      }
+    }
+
+    let toastTimeout;
+
+    function showToast() {
+      const toast = document.getElementById('copyToast');
+      clearTimeout(toastTimeout);
+
+      toast.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>
